@@ -1,0 +1,32 @@
+footer {
+    background: #333A44;
+    padding: 32px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+
+    &__list {
+        margin-left: 49px;
+        width: 237px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+
+    &__list-social {
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+}
